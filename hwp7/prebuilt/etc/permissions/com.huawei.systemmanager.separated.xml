@@ -1,0 +1,5 @@
+<!-- DTS2015012006767 yubinke 00159260 20150120 created -->
+<permissions>
+    <library name="com.huawei.systemmanager.separated"
+    file="/system/framework/com.huawei.systemmanager.separated.jar" />
+</permissions>
