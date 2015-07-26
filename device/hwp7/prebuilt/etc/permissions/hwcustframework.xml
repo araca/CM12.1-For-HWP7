@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- DTS2012050401101 xiongshiyi 20120723 create -->
+<permissions>
+    <library name="hwcustframework"
+            file="/system/framework/hwcustframework.jar"/>
+</permissions>

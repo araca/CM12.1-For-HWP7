@@ -1,0 +1,53 @@
+#
+# system.prop for P7-L10
+#
+
+rild.libpath=/system/lib/libbalong-ril.so
+rild.libargs=-m modem0
+rild.libpath1=/system/lib/libbalong-ril.so
+rild.libargs1=-m modem1
+ro.config.hisi_soc_type=true
+ro.config.hisi_rpt_mode=0
+balong.debug.on=true
+ro.config.fm_type=libbcmfm_if
+ro.bt.bdaddr_path=/data/misc/bluedroid/macbt
+ro.config.keypasstouser=true
+persist.sys.strictmode.visual=false
+ro.config.notification_sound=Glory.ogg
+ro.config.alarm_alert=Pmukkale.ogg
+ro.config.ringtone=Huawei_Tune.ogg
+install.frobidden=false
+ro.camera.sound.forced=1
+keyguard.no_require_sim=true
+ro.config.hw_dolby=true
+ro.config.hw_voicerecord=true
+ro.config.widevine_level3=true
+ro.product.manufacturer=HUAWEI
+ro.product.model=HUAWEI P7-L10
+drm.service.enabled=true
+ro.config.hw_multiscreen=true
+ro.ril.ecclist=112,911,#911,*911
+af.resampler.quality=3
+persist.demo.hdmirotation=portrait
+persist.demo.hdmirotationlock=false
+debug.atrace.tags.enableflags=0
+ro.config.hw_dts=true
+ro.config.hw_dolby=false
+ro.config.hw_music_lp=true
+ro.config.balong_test=false
+debug.hwui.render_dirty_regions=false
+ro.config.hw_fastcoldboot=true
+persist.sys.hdcp_checking=never
+ro.config.hw_subtitle_support=true
+ro.hw_se13list_version=20130826
+ro.config.hw_disable_cops=true
+ro.product.platform.pseudonym=1ARB9CV
+ro.config.hw_music_lp=true
+persist.sys.thermalm=default
+ro.config.hw_navigationbar=true
+ro.config.hw_sglte.mcc=460
+ro.config.hw_sglte_simblist=46001
+ro.config.hw_testingsettings=true
+dalvik.vm.checkjni=false
+ro.config.hw_emerg=on
+ro.config.lowBatteryUpgrade=true
